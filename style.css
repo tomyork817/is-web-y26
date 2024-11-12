@@ -60,7 +60,7 @@ main section {
     background-color: #fff;
     border: 2px solid #c0c0c0;
     padding: 15px;
-    width: 280px;
+    width: 350px;
     margin: 10px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
     border-radius: 8px;
@@ -161,4 +161,33 @@ article {
 
 code {
     text-align: left;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        display: none;
+    }
 }
