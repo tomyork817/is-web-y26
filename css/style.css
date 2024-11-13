@@ -191,3 +191,18 @@ tr:nth-child(even) {
         display: none;
     }
 }
+
+header nav div a.hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+header nav div a.active {
+    font-weight: bold;
+    color: #ff6600;
+}
+
+video, iframe {
+    width: 100%;
+    height: auto;
+}
