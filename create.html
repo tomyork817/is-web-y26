@@ -2,11 +2,11 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>О нас</title>
-    <meta name="description" content="О нас">
-    <meta name="keywords" content="о нас, котики, кошки"/>
+    <title>Создание котика</title>
+    <meta name="description" content="Страница для создания своего котика.">
+    <meta name="keywords" content="создать котика, добавить котика, конструктор котиков">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js" defer></script>
+    <script src="js/create.js" defer></script>
 </head>
 <body>
 
@@ -14,7 +14,6 @@
     <div>
         <img src="assets/logo.gif" alt="Логотип сайта">
     </div>
-
     <nav>
         <div><a href="index.html"><img src="assets/menu.jpg" alt="Главное меню"><br>Главное меню</a></div>
         <div><a href="gallery.html"><img src="assets/gallery.jpg" alt="Галерея кошаков"><br>Галерея кошаков</a></div>
@@ -28,13 +27,27 @@
 
 <main>
     <section>
-        <h2>О нас</h2>
-        <p><a href="https://t.me/cute_cars">Телеграм-канал</a>
-        </p>
+        <form id="catForm" class="form-container">
+            <h2>Создание котика</h2>
+            <label>
+                Имя котика:
+                <input type="text" id="catName" placeholder="Введите имя котика" required>
+            </label>
+            <label>
+                Фото котика:
+                <input type="url" id="catPhoto" placeholder="URL фото котика" required>
+            </label>
+            <button type="submit">Создать котика</button>
+        </form>
     </section>
+
+    <section id="column1" class="column"></section>
+    <section id="column2" class="column"></section>
+    <section id="column3" class="column"></section>
 </main>
 
-<footer>Надеемся, что вам понравились котики!</footer>
+
+<footer>котики лучшие</footer>
 
 </body>
 </html>
