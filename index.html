@@ -7,6 +7,7 @@
     <meta name="keywords" content="котики, коты, кошки"/>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js" defer></script>
+    <script src="js/comments.js" defer></script>
 </head>
 <body>
 
@@ -58,6 +59,18 @@ func main() {
 }
             </code></pre>
         </section>
+
+        <section>
+            <h2>Новости</h2>
+            <article>
+                <h3>Котята самые лучшие</h3>
+                <p>Котята самые лучшие и это факт.</p>
+            </article>
+            <article>
+                <h3>Коты и собаки: как они дружат</h3>
+                <p>Кошки и собаки могут быть лучшими друзьями! Узнайте, как.</p>
+            </article>
+        </section>
     </section>
 
     <section>
@@ -71,18 +84,6 @@ func main() {
             <div><img src="assets/cat2.jpg" alt="Котик 2"></div>
             <div><img src="assets/cat3.jpg" alt="Котик 3"></div>
         </div>
-
-        <section>
-            <h2>Новости</h2>
-            <article>
-                <h3>Котята самые лучшие</h3>
-                <p>Котята самые лучшие и это факт.</p>
-            </article>
-            <article>
-                <h3>Коты и собаки: как они дружат</h3>
-                <p>Кошки и собаки могут быть лучшими друзьями! Узнайте, как.</p>
-            </article>
-        </section>
     </section>
 
     <section>
@@ -115,38 +116,47 @@ ZZZzz /,`.-'`'    -.  ;-;;,_
     </section>
 
     <section class="info">
-        <h2>Таблица популярности котиков</h2>
-        <table>
-            <thead>
-            <tr>
-                <th>Имя</th>
-                <th>Популярность</th>
-                <th>Тип котика</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Mr. Fresh</td>
-                <td>98%</td>
-                <td>Подозрительный</td>
-            </tr>
-            <tr>
-                <td>Mr. Void</td>
-                <td>90%</td>
-                <td>Черный</td>
-            </tr>
-            <tr>
-                <td>Mr. Fat</td>
-                <td>85%</td>
-                <td>Толстый</td>
-            </tr>
-            <tr>
-                <td>Mr. Beef</td>
-                <td>80%</td>
-                <td>Задиристый</td>
-            </tr>
-            </tbody>
-        </table>
+        <section>
+            <h2>Таблица популярности котиков</h2>
+            <table>
+                <thead>
+                <tr>
+                    <th>Имя</th>
+                    <th>Популярность</th>
+                    <th>Тип котика</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Mr. Fresh</td>
+                    <td>98%</td>
+                    <td>Подозрительный</td>
+                </tr>
+                <tr>
+                    <td>Mr. Void</td>
+                    <td>90%</td>
+                    <td>Черный</td>
+                </tr>
+                <tr>
+                    <td>Mr. Fat</td>
+                    <td>85%</td>
+                    <td>Толстый</td>
+                </tr>
+                <tr>
+                    <td>Mr. Beef</td>
+                    <td>80%</td>
+                    <td>Задиристый</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="comments-section">
+            <h2>Комментарии</h2>
+            <div id="comments-preloader">
+                <img src="assets/loading.gif" alt="загружаю..">
+            </div>
+            <div id="comments-container"></div>
+        </section>
     </section>
 </main>
 
