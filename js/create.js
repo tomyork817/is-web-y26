@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const photoUrl = document.getElementById("catPhoto").value.trim();
 
         if (!name || !photoUrl) {
-            alert("Пожалуйста, заполните все поля.");
+            alert("пж заполните все поля");
             return;
         }
 
